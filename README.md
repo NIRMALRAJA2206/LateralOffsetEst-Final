@@ -2,7 +2,7 @@
 
 ## Description  
 
-This project provides a **real-time lane detection and lateral offset estimation system** for autonomous driving applications. It leverages **YOLOv8 segmentation**, **regression-based calibration**, and **UDP communication** to estimate the vehicle's lateral position with centimeter-level accuracy. The system is designed to run on **NVIDIA Jetson AGX Orin**, utilizing **CUDA acceleration** for efficient deep learning inference.  
+This project provides a **real-time lane detection and lateral offset estimation system** for autonomous driving applications. It leverages **YOLOv8 segmentation**, **9-point calibration**, and **UDP communication** to estimate the vehicle's lateral position with centimeter-level accuracy. The system is designed to run on **NVIDIA Jetson AGX Orin**, utilizing **CUDA acceleration** for efficient deep learning inference.  
 
 ### Key Features  
 - **Lane Segmentation using YOLOv8** – Detects lane boundaries in real-time.  
