@@ -1,0 +1,30 @@
+model:
+  path: "yolomodelweights.pt"
+
+input:
+  type:   1 #1 for video #2 for camera input
+  path: "zed2irec.mp4"
+  source: 2
+
+calibration:
+  center_line:
+    - [666, 490]
+    - [681, 560]
+  left_line:
+    - [597, 490]
+    - [565, 560]
+  right_line:
+    - [744, 490]
+    - [804, 560]
+
+network:
+  UDP_IP: "127.0.0.1"
+  UDP_PORT: 5000
+
+visualization:
+  enable: True
+
+error_correction:
+  e_scale: 0.328
+  e_bias: 0.214  # 21.4 cm to meters
+
