@@ -40,7 +40,6 @@ This project utilizes the following technologies:
 │── yolomodelweights.pt      # Pretrained YOLOv8 model weights for lane segmentation  
 │── latoffsetmain.py         # Main script for lane detection and lateral offset estimation  
 │── UDPListenTest.py         # Script to test UDP data reception  
-│── zed2irec.mp4             # Sample video recorded from ZED 2i camera  
 │── README.md                # Project documentation  
 ```
 
